@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: inline;
+}
+
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.reload {
+  font-family: Lucida Sans Unicode;
+  cursor: pointer;
 }
